@@ -1,0 +1,237 @@
+body {
+  width: 362px;
+  height: 766px;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+  margin: 56px auto auto 10px;
+}
+
+#signUp {
+  display: flex;
+  justify-content: center;
+  width: 110px;
+  margin: 35px auto auto 40px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #252525;
+  border: 1px solid #000000;
+}
+#content {
+  margin: 24px auto 24px 40px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #252525;
+}
+#detail {
+  display: inline;
+  margin: auto 148px auto 39px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #f7941e;
+}
+
+#num {
+  display: inline;
+  margin-top: 253px;
+  width: 30px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: right;
+  color: #f7941e;
+}
+
+hr{
+  display: inline-block;
+  width: 294px;
+  margin-left: 34px;
+  border: 3px solid #F4F4F4;
+}
+
+#main {
+  margin: 33px auto 33px auto;
+  display: grid;
+  grid-template-columns: 1.2fr 3fr;
+  row-gap: 24px;
+  column-gap: 16px;
+  align-items: center;
+}
+#call {
+  padding-left: 33px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #175c8e;
+}
+
+#callNumBox {
+  box-sizing: border-box;
+  border: 0.5px solid #898a8d;
+}
+#callNum {
+  margin: 8px 121px 8px 12px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #252525;
+}
+
+#delivery {
+  padding-left: 33px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #175c8e;
+}
+
+#freeBox {
+  box-sizing: border-box;
+  border: 0.5px solid #898a8d;
+}
+#free {
+  margin: 8px 121px 8px 12px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #252525;
+}
+
+#opTime {
+  padding-left: 33px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #175c8e;
+}
+
+#timeBox {
+  box-sizing: border-box;
+  border: 0.5px solid #898a8d;
+}
+#time {
+  margin: 8px 121px 8px 12px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #252525;
+}
+
+#etc {
+  padding-left: 33px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #175c8e;
+}
+
+#exBox {
+  box-sizing: border-box;
+  border: 0.5px solid #898a8d;
+}
+#ex {
+  margin: 8px auto 8px 12px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #252525;
+}
+#close {
+  padding-left: 33px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #175c8e;
+}
+#dateBox {
+  box-sizing: border-box;
+  border: 0.5px solid #898a8d;
+}
+#date {
+  margin: 8px 121px 8px 12px;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #252525;
+}
+#checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#deliveryCan {
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #858585;
+}
+input:checked + label {
+  color: #f7941e;
+}
+#cardCan {
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #858585;
+}
+
+#cashCan {
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #858585;
+}
+
+#next {
+  width: 105px;
+  height: 38px;
+  margin: 29px auto 30px 241px;
+  background: #175c8e;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
